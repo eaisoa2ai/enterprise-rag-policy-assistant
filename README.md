@@ -17,6 +17,12 @@ LangGraph's cyclic-graph support exists for — plus the retrieval-specific
 concerns neither of the other two touch: chunking, embeddings, access
 control at the retrieval layer, and citation-grounded generation.
 
+See [ARCHITECTURE.md](ARCHITECTURE.md) for the end-to-end production design
+this demo is a scaled-down proof of: the real permission-sync problem (per-
+document ACLs, not five static roles), hybrid retrieval and re-ranking at
+scale, incremental indexing, prompt-injection-via-retrieved-content, multi-
+tenancy, and a concrete migration path from this repo to that architecture.
+
 ## Why this design
 
 **Retrieval-first, not generation-first.** The standard failure mode of a
