@@ -1,0 +1,9 @@
+# Non-secret operational thresholds. Credentials live in .env, never here.
+thresholds:
+  confidence_floor: 0.6            # any agent confidence below this -> flagged for review
+  min_relevance_score: 0.35        # cosine similarity floor to consider a chunk "relevant"
+  max_retrieval_attempts: 2        # corrective-loop retries before declining to answer
+  top_k: 4                         # chunks retrieved per attempt
+  groundedness_overlap_floor: 0.35 # minimum lexical overlap between an answer and its cited chunks
+  chunk_size_chars: 800
+  chunk_overlap_chars: 120

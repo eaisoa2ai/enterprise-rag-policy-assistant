@@ -1,0 +1,28 @@
+[
+  {"question": "How many PTO days do I accrue per year?", "role": "employee", "expected_doc_ids": ["hr_handbook"], "expected_outcome": "answered"},
+  {"question": "How long is parental leave for the primary caregiver?", "role": "employee", "expected_doc_ids": ["hr_handbook"], "expected_outcome": "answered"},
+  {"question": "Who do I report a Code of Conduct violation to?", "role": "employee", "expected_doc_ids": ["code_of_conduct"], "expected_outcome": "answered"},
+  {"question": "How many office days per week are required under the hybrid model?", "role": "employee", "expected_doc_ids": ["remote_work_policy"], "expected_outcome": "answered"},
+  {"question": "What is the minimum password length for company systems?", "role": "employee", "expected_doc_ids": ["acceptable_use_policy"], "expected_outcome": "answered"},
+  {"question": "What is the daily meal reimbursement limit for domestic travel?", "role": "employee", "expected_doc_ids": ["expense_travel_policy"], "expected_outcome": "answered"},
+
+  {"question": "What is the Tier 1 security incident containment SLA?", "role": "it", "expected_doc_ids": ["it_security_policy"], "expected_outcome": "answered"},
+  {"question": "How often is privileged access reviewed?", "role": "it", "expected_doc_ids": ["it_security_policy"], "expected_outcome": "answered"},
+  {"question": "What is the Tier 1 security incident containment SLA?", "role": "employee", "expected_doc_ids": [], "expected_outcome": "refused"},
+
+  {"question": "What purchase amount requires a purchase order?", "role": "finance", "expected_doc_ids": ["procurement_policy"], "expected_outcome": "answered"},
+  {"question": "What are the standard vendor payment terms?", "role": "finance", "expected_doc_ids": ["procurement_policy"], "expected_outcome": "answered"},
+  {"question": "What amount requires a purchase order?", "role": "employee", "expected_doc_ids": [], "expected_outcome": "refused"},
+
+  {"question": "How long does Northwind Group retain customer data?", "role": "legal", "expected_doc_ids": ["data_privacy_policy"], "expected_outcome": "answered"},
+  {"question": "What is the breach notification deadline under GDPR Article 33?", "role": "legal", "expected_doc_ids": ["data_privacy_policy"], "expected_outcome": "answered"},
+  {"question": "How long does Northwind Group retain customer data?", "role": "it", "expected_doc_ids": ["data_privacy_policy"], "expected_outcome": "answered"},
+
+  {"question": "What is the gift value limit for a business partner?", "role": "legal", "expected_doc_ids": ["anti_corruption_policy"], "expected_outcome": "answered"},
+  {"question": "What is the gift value limit for a business partner?", "role": "employee", "expected_doc_ids": [], "expected_outcome": "refused"},
+
+  {"question": "How long does a Performance Improvement Plan run?", "role": "hr", "expected_doc_ids": ["performance_management_policy"], "expected_outcome": "answered"},
+  {"question": "How long does a Performance Improvement Plan run?", "role": "employee", "expected_doc_ids": [], "expected_outcome": "refused"},
+
+  {"question": "What is the company's parking validation policy?", "role": "employee", "expected_doc_ids": [], "expected_outcome": "refused"}
+]
