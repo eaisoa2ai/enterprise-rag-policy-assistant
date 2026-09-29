@@ -1,5 +1,8 @@
 # PolicyIQ
 
+This repository serves as a sanitized, production-ready reference architecture built to demonstrate enterprise agentic patterns. 
+It mirrors the architectural designs, multi-agent state machines, and evaluation frameworks I deploy in enterprise environments, stripped of proprietary data and corporate logic.
+
 An access-controlled, citation-grounded RAG system over enterprise policy
 documents. Ask a question as a given role (employee, HR, IT, Legal,
 Finance) and get an answer that's retrieved only from documents that role
